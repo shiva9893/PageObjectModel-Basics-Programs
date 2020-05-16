@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practice]">
+  <parameter name="place" value="plnr"/>
+  <parameter name="Age" value="20"/>
+  <parameter name="Name" value="this is parameter"/>
+  <test name="TestSuite">
+    <parameter name="place" value="plnr"/>
+    <parameter name="Age" value="20"/>
+    <parameter name="Name" value="this is parameter"/>
+    <classes>
+      <class name="Practice.TestngPractice">
+        <methods>
+          <include name="f"/>
+          <include name="twoparam"/>
+        </methods>
+      </class> <!-- Practice.TestngPractice -->
+    </classes>
+  </test> <!-- TestSuite -->
+</suite> <!-- Failed suite [Practice] -->
