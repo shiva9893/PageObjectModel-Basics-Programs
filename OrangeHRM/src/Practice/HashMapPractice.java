@@ -15,6 +15,7 @@ public class HashMapPractice {
 		H1.put(1, "shiv");
 		H1.put(2, "Rev");
 		System.out.println(H1.values());
+		System.out.println(H1.keySet());
 
 	}
 

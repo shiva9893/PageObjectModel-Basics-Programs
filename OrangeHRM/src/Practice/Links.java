@@ -6,7 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
 public class Links {
@@ -28,8 +31,13 @@ for(WebElement linksurl:links)
 	//System.out.println(linksurl.getAttribute("href"));
 	System.out.println(linksurl.getText());
 	
+	DesiredCapabilities ds=new DesiredCapabilities();
 	
+	ds.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 	
+	ChromeOptions cp=new ChromeOptions();
+	
+	cp.addArguments("start-maximized");
 	
 	
 	
