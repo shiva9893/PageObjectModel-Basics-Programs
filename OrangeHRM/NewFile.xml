@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="com.Practice">
-<parameter name="Name" value="this is parameter"></parameter>
-<parameter name="Age" value="20"></parameter>
-<parameter name="place" value="plnr"></parameter>
+<suite name="Practice">
+
 <test name="TestSuite">
 
 <classes>
 
-<class name="com.Practice.TestngPractice">
-
- <methods>
+<class name="TestngPractice.java">
+<parameter name="Name" value="this is parameter"></parameter>
+<parameter name="Age" value="20"></parameter>
+<parameter name="place" value="plnr"></parameter>
+<!--  <methods>
 <include name="f">
 </include>
 <include name="twoparam">
 </include>
-</methods> 
+</methods>  -->
 
 </class>
 </classes> 

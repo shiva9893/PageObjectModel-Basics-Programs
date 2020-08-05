@@ -37,14 +37,7 @@ for(WebElement linksurl:links)
 	
 	ChromeOptions cp=new ChromeOptions();
 	
-	cp.addArguments("start-maximized");
-	
-	
-	
-	
-	
-	
-	
+	cp.addArguments("start-maximized");	
 }
   }
 }

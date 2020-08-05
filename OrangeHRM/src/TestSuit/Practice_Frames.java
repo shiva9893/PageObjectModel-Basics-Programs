@@ -24,8 +24,8 @@ System.setProperty("webdriver.gecko.driver", "C:\\Users\\Revathi\\Downloads\\gec
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");;
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.id("btnLogin")).click();
-		///List<WebElement> li = driver.findElements(By.tagName("iframe"));
-		///System.out.println();
+		List<WebElement> li = driver.findElements(By.tagName("iframe"));
+	    System.out.println();
 		
 
 	}

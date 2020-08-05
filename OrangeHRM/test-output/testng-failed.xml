@@ -3,17 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="Practice.TestngPractice"/>
+      <class name="TTD.DatePicker"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="Practice.TestngPractice">
-        <methods>
-          <include name="twoparam"/>
-          <include name="f"/>
-        </methods>
-      </class> <!-- Practice.TestngPractice -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -21,13 +21,13 @@ public class ActionPractice {
 			
 			
 			Thread.sleep(3000);
-			WebElement serch=driver.findElement(By.name("q"));
+			WebElement search=driver.findElement(By.name("q"));
 		  
 			Actions ac=new Actions(driver);
 			
-			ac.moveToElement(serch).build().perform();
+			ac.moveToElement(search).build().perform();
 			
-			ac.contextClick(serch).build().perform();
+			ac.contextClick(search).build().perform();
 			
 			
 	}
