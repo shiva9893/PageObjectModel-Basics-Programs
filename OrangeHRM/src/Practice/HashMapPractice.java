@@ -12,8 +12,8 @@ public class HashMapPractice {
 		System.out.println((hm.size()));
 		System.out.println(hm);
 		HashMap<Integer ,String> H1=new HashMap<Integer ,String>();
-		H1.put(1, "shiv");
-		H1.put(2, "Rev");
+		H1.put(1, "");
+		H1.put(2, "");
 		System.out.println(H1.values());
 		System.out.println(H1.keySet());
 
